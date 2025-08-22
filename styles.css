@@ -53,5 +53,9 @@ body {
     font-size: 40px;
     cursor: pointer;
   }
+
+  .code-content {
+    margin-left: 50px;
+  }
   
   

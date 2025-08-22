@@ -1,3 +1,8 @@
+
+
+    console.log('Lesson 4');
+
+
 function secondLargest(arr) {
     if (arr.length < 2) {
         return null;

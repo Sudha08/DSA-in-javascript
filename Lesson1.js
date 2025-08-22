@@ -31,3 +31,4 @@ let squareRes = calculateSquare(n);
 console.log("Square of " + n + " - " + squareRes);
 
 /* ------------------------------------------------------------- */
+
