@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DSA In Javascript</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <h1>Data Structures and Algorithms</h1>
+    <div id = "main-container" class="main-container">
 
-    <pre id="code"></pre>
+      <div id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" onclick="showLesson('1')">Lesson 1</a>
+        <a href="#" onclick="showLesson('2')">Lesson 2</a>
+        <a href="#" onclick="showLesson('3')">Lesson 3</a>
+        <a href="#" onclick="showLesson('4')">Lesson 4</a>
+      </div>
 
-    <script src="Lesson1-Intro.js"></script>
-    <script>
-        fetch("Lesson1-Intro.js")  // path to your JS file
-          .then(response => response.text())
-          .then(code => {
-            document.getElementById("code").textContent = code;
-          });
-      </script>
+      <div id="content" class="content">
+        <div id="header" class="header">
+          <span class="menu-icon" onclick="openNav()"> &#9776; </span>
+          <h1 class="heading">Data Structures and Algorithms</h1>
+        </div>
+
+        <pre id="code-content"></pre>
+      </div>     
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
