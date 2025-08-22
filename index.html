@@ -10,8 +10,8 @@
     <div id = "main-container" class="main-container">
 
       <div id="sidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#" onclick="showLesson('1')">Lesson 1</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Lessons &times;</a>
+        <a href="#" class="first-menu" onclick="showLesson('1')">Lesson 1</a>
         <a href="#" onclick="showLesson('2')">Lesson 2</a>
         <a href="#" onclick="showLesson('3')">Lesson 3</a>
         <a href="#" onclick="showLesson('4')">Lesson 4</a>
@@ -21,12 +21,15 @@
         <div id="header" class="header">
           <span class="menu-icon" onclick="openNav()"> &#9776; </span>
           <h1 class="heading">Data Structures and Algorithms</h1>
+          <h3 class="sub-heading">Open the browser console to view the ouput of the code</h3>
         </div>
 
         <pre id="code-content" class="code-content"></pre>
       </div>     
     </div>
 
-    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="lessons.js"></script>
+
 </body>
 </html>
