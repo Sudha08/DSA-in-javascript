@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Data Structures and Algorithms</h1>
+
+    <pre id="code"></pre>
+
+    <script src="Lesson1-Intro.js"></script>
+    <script>
+        fetch("Lesson1-Intro.js")  // path to your JS file
+          .then(response => response.text())
+          .then(code => {
+            document.getElementById("code").textContent = code;
+          });
+      </script>
+</body>
+</html>
