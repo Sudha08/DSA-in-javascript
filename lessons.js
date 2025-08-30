@@ -1,11 +1,11 @@
-import { sum, calculateSquare } from './Lesson1.js';
-import { checkVotingEligibility, isOddEven } from './Lesson2.js';
-import { printHello, printElements, searchElement, printEvenNumbers, countNegativeNumbers } from './Lesson3.js';
-import { findLargestNumber, findLargestNumber1, findLargestNumber2, findSmallestNumber } from './Lesson4.js';
-import { getSecondLargest } from './Lesson5.js';
-import { loopInLoop1, loopInLoop2, loopInLoop3, reverseLoop1, reverseLoop2 } from './Lesson6.js';
-import { pattern1, pattern2, pattern3, pattern4, reversePattern1, reversePattern2, complexPattern1, complexPattern2, complexPattern3 } from './Lesson7.js';
-import { countDigits } from './Lesson8.js';
+import { sum, calculateSquare } from './Basics/Lesson1.js';
+import { checkVotingEligibility, isOddEven } from './Basics/Lesson2.js';
+import { printHello, printElements, searchElement, printEvenNumbers, countNegativeNumbers } from './Basics/Lesson3.js';
+import { findLargestNumber, findLargestNumber1, findLargestNumber2, findSmallestNumber } from './Basics/Lesson4.js';
+import { getSecondLargest } from './Basics/Lesson5.js';
+import { loopInLoop1, loopInLoop2, loopInLoop3, reverseLoop1, reverseLoop2 } from './Basics/Lesson6.js';
+import { pattern1, pattern2, pattern3, pattern4, reversePattern1, reversePattern2, complexPattern1, complexPattern2, complexPattern3 } from './Basics/Lesson7.js';
+import { countDigits } from './Basics/Lesson8.js';
 
 window.onload = (event) => {
     loadLesson1();
