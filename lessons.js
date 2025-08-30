@@ -6,6 +6,8 @@ import { getSecondLargest } from './Basics/Lesson5.js';
 import { loopInLoop1, loopInLoop2, loopInLoop3, reverseLoop1, reverseLoop2 } from './Basics/Lesson6.js';
 import { pattern1, pattern2, pattern3, pattern4, reversePattern1, reversePattern2, complexPattern1, complexPattern2, complexPattern3 } from './Basics/Lesson7.js';
 import { countDigits } from './Basics/Lesson8.js';
+import {  } from './Basics/Lesson9.js';
+import {  } from './Basics/Lesson10.js';
 
 window.onload = (event) => {
     loadLesson1();
@@ -19,7 +21,7 @@ document.getElementById("lesson1").addEventListener("click", () => {
 // lesson 2
 document.getElementById("lesson2").addEventListener("click", () => {
     console.clear();
-    showLesson('2');
+    showLesson("Basics\\Lesson2.js");
     console.log("Lesson 2 - Conditional Statement - if- else");
 
     console.log("");
@@ -44,7 +46,7 @@ document.getElementById("lesson2").addEventListener("click", () => {
 // lesson 3
 document.getElementById("lesson3").addEventListener("click", () => {
     console.clear();
-    showLesson('3');
+    showLesson("Basics\\Lesson3.js");
     console.log("Lesson 3 - Loops 1");
 
     console.log("");
@@ -85,7 +87,7 @@ document.getElementById("lesson3").addEventListener("click", () => {
 // lesson 4
 document.getElementById("lesson4").addEventListener("click", () => {
     console.clear();
-    showLesson('4');
+    showLesson("Basics\\Lesson4.js");
     console.log("Lesson 4 - Loops 2");
 
     console.log("");
@@ -121,7 +123,7 @@ document.getElementById("lesson4").addEventListener("click", () => {
 // lesson 5
 document.getElementById("lesson5").addEventListener("click", () => {
     console.clear();
-    showLesson('5');
+    showLesson("Basics\\Lesson5.js");
     console.log("Lesson 5 - Second Largest Number in an Array");
 
     let arr = [2, 10, 11, 9, 5, 14, 22, 0];
@@ -145,7 +147,7 @@ document.getElementById("lesson5").addEventListener("click", () => {
 // lesson 6
 document.getElementById("lesson6").addEventListener("click", () => {
     console.clear();
-    showLesson('6');
+    showLesson("Basics\\Lesson6.js");
     console.log("Lesson 6 - Loop within Loop");
 
     console.log("");
@@ -167,7 +169,7 @@ document.getElementById("lesson6").addEventListener("click", () => {
 // lesson 7
 document.getElementById("lesson7").addEventListener("click", () => {
     console.clear();
-    showLesson('7');
+    showLesson("Basics\\Lesson7.js");
     console.log("Lesson 7 - Star Pattern");
 
     console.log("");  
@@ -201,25 +203,45 @@ document.getElementById("lesson7").addEventListener("click", () => {
 // lesson 8
 document.getElementById("lesson8").addEventListener("click", () => {
     console.clear();
-    showLesson('8');
+    showLesson("Basics\\Lesson8.js");
     console.log("Lesson 8 - Count Digits in a number");
 
     console.log("");
-    countDigits(215);
+    let num = 215
+    console.log("Number of digits in " + num + " = " + countDigits(num));
 
     console.log("");
-    countDigits(5234545);
+    num = 5234545;
+    console.log("Number of digits in " + num + " = " + countDigits(num));
 
     console.log("");
-    countDigits(2);
+    num = 0;
+    console.log("Number of digits in " + num + " = " + countDigits(num));
 
+    console.log("");
+    num = -32687;
+    console.log("Number of digits in " + num + " = " + countDigits(num));
+});
+
+// lesson 8
+document.getElementById("lesson9").addEventListener("click", () => {
+    console.clear();
+    showLesson("Basics\\Lesson9.js");
+    console.log("Lesson 9 - Palindrome");
+});
+
+// lesson 8
+document.getElementById("lesson10").addEventListener("click", () => {
+    console.clear();
+    showLesson("Basics\\Lesson10.js");
+    console.log("Lesson 10 - Reverse a number");
 });
 
 
 // Load lesson 1 during Initial load of the site
 function loadLesson1() {
     console.clear();
-    showLesson('1');
+    showLesson("Basics\\Lesson1.js");
     console.log("Lesson 1 - Introduction");
     console.log("Sum" + " - " + sum (10, 20));
 

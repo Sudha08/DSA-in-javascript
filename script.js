@@ -1,6 +1,6 @@
       
-function showLesson(num) {
-    fetch("Basics\\Lesson" + num + ".js")  // path to your JS file
+function showLesson(path) {
+    fetch(path)  // path to your JS file
         .then(response => response.text())
         .then(code => {
         document.getElementById("code-content").textContent = code;

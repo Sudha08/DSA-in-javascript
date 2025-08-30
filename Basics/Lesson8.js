@@ -2,7 +2,7 @@
 /* ------------------------------------------------------------- */
 
 export function countDigits(num) {
-    if (n == 0) return 1; // edge case when num = 0
+    if (num == 0) return 1; // edge case when num = 0
 
     // To handle negative numbers by converting -Ve number to +Ve number using Math.abs-- edge case
 
