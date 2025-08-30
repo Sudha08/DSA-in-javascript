@@ -11,10 +11,30 @@
 
       <div id="sidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Lessons &times;</a>
-        <a href="#" class="first-menu" onclick="showLesson('1')">Lesson 1</a>
-        <a href="#" onclick="showLesson('2')">Lesson 2</a>
-        <a href="#" onclick="showLesson('3')">Lesson 3</a>
-        <a href="#" onclick="showLesson('4')">Lesson 4</a>
+
+        <a href="javascript:void(0)"  class="dropdown-btn first-menu">Basics ▼</a>
+        <div class="dropdown-container">
+          <a href="#" id="lesson1">Lesson 1</a>
+          <a href="#" id="lesson2">Lesson 2</a>
+          <a href="#" id="lesson3">Lesson 3</a>
+          <a href="#" id="lesson4">Lesson 4</a>
+          <a href="#" id="lesson5">Lesson 5</a>
+          <a href="#" id="lesson6">Lesson 6</a>
+          <a href="#" id="lesson7">Lesson 7</a>
+          <a href="#" id="lesson8">Lesson 8</a>
+        </div>
+        <a href="javascript:void(0)"  class="dropdown-btn">Time/Space Complexity ▼</a>
+        <div class="dropdown-container">
+          <a href="#">Lesson 1</a>
+        </div>
+        <a href="javascript:void(0)"  class="dropdown-btn">Arrays ▼</a>
+        <div class="dropdown-container">
+          <a href="#">Lesson 1</a>
+        </div>
+        <a href="javascript:void(0)"  class="dropdown-btn">Recursion ▼</a>
+        <div class="dropdown-container">
+          <a href="#">Lesson 1</a>
+        </div>
       </div>
 
       <div id="content" class="content">
@@ -27,9 +47,7 @@
         <pre id="code-content" class="code-content"></pre>
       </div>     
     </div>
-
     <script src="script.js"></script>
     <script type="module" src="lessons.js"></script>
-
 </body>
 </html>
